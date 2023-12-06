@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nombre": "CERAVE Moisturising Cream",
+    "descripcion": "Cerave Crema Hidratante Moisturising Cream 340ml",
+    "imagen": "https://i0.wp.com/www.essenz.com.uy/wp-content/uploads/2022/05/Cerave-Crema-Hidratante-Moisturising-Cream-340ml.jpg?fit=1236%2C1236&ssl=1",
+    "precio": 1080,
+    "stock": 10,
+    "categoria": "corporales"
+  },
+  {
+    "id": 2,
+    "nombre": "CERAVE Soothing",
+    "descripcion": "CERAVE CREMA SMOOTHING 340GR",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxWEhEuMDJsGvp4n0Eeg1fvqDxFXwGzM8hhg&usqp=CAU",
+    "precio": 1200,
+    "stock": 10,
+    "categoria": "corporales"
+  },
+  {
+    "id": 3,
+    "nombre": "Delineador Maybelline Tattoo",
+    "descripcion": "Delineador Maybelline Tattoo Studio Kajal Smokey Black",
+    "imagen": "https://www.botiga.com.uy/media/catalog/product/cache/1/thumbnail/600x600/0dc2d03fe217f8c83829496872af24a0/t/a/tattoo_studio_kajal_smokey_black.jpg",
+    "precio": 700,
+    "stock": 10,
+    "categoria": "maquillaje"
+  },
+  {
+    "id": 4,
+    "nombre": "Base Fit Me Matte Maybelline",
+    "descripcion": "Base Fit Me Matte Maybelline",
+    "imagen": "https://www.lasmargaritas.com.uy//product_images/p/689/Sin_t%C3%ADtulo__33293_zoom.png",
+    "precio": 900,
+    "stock": 10,
+    "categoria": "maquillaje"
+  },
+  {
+    "id": 5,
+    "nombre": "Perfume YSL Intense",
+    "descripcion": "Perfume YSL EDP Libre Intense 30ml",
+    "imagen": "https://d2j1otqw5s5nlb.cloudfront.net/fit-in/524x480/filters:fill(FFFFFF):quality(90):format(webp)/_img_productos/ysl-edp-intense-30ml-foto1-1640360797.jpg",
+    "precio": 5600,
+    "stock": 10,
+    "categoria": "fragancias"
+  },
+  {
+    "id": 6,
+    "nombre": "Perfume Dior Miss Dior",
+    "descripcion": "Perfume Dior Miss Dior Edp 50 Ml",
+    "imagen": "https://tiendacdn.farmashop.com.uy/media/catalog/product/cache/6eba75f60f78a39a4b9228a06a950068/6/3/633114_10_1.jpg",
+    "precio": 6200,
+    "stock": 10,
+    "categoria": "fragancias"
+  }
+]

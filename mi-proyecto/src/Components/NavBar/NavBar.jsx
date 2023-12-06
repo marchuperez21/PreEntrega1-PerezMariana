@@ -1,22 +1,33 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import CardWidget from "../CardWidget/CardWidget";
+import CartWidget from "../CartWidget/CartWidget";
+import { Link } from "react-router-dom";
+import "./NavBar.css";
 
 function NavBar() {
   return (
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">MP Shop</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#productos">Productos</Nav.Link>
-            <Nav.Link href="#contacto">Contacto</Nav.Link>
-            <Nav.Link href="#cardwidget">
-              <CardWidget />
-            </Nav.Link>
+          <Navbar.Brand to="/">MP Shop</Navbar.Brand>
+          <Nav className="me-auto Navbar ">
+            <Link className="Navbar" to="/">
+              Inicio
+            </Link>
+            <Link className="Navbar" to="/category/maquillaje">
+              Maquillaje
+            </Link>
+            <Link className="Navbar" to="/category/corporales">
+              Corporales
+            </Link>
+            <Link className="Navbar" to="/category/fragancias">
+              Fragancias
+            </Link>
           </Nav>
+          <Link to="/cart">
+            <CartWidget />
+          </Link>
         </Container>
       </Navbar>
     </>
